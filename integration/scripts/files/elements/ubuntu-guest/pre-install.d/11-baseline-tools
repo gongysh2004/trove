@@ -4,4 +4,4 @@
 set -e
 set -o xtrace
 
-DEBIAN_FRONTEND=noninteractive apt-get --allow-unauthenticated install -y -qq software-properties-common apt-transport-https ca-certificates ntp >/dev/null
+DEBIAN_FRONTEND=noninteractive apt-get --allow-unauthenticated install -y -qq software-properties-common apt-transport-https ca-certificates ntp iputils-ping >/dev/null
